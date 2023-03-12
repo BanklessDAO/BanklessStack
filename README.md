@@ -6,7 +6,7 @@ First, clone and run the development server:
 
 ```bash
 git clone https://github.com/BanklessDAO/BanklessStack.git
-cd bankless-africa
+cd BanklessStack
 yarn
 yarn dev
 ```
