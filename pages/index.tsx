@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import CardList from '../components/CardList';
 
-
 export default function Home() {
   return (
     <>
@@ -11,15 +10,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div>
-          <h1 className='bg-red-700'>Bankless Stack</h1>
-        </div>
+      <main className="bg-black min-h-screen pt-10">
+        <div className='mb-40'>
+          <div>
+            <h1 className="text-6xl font-bold text-center text-red-700">
+              Bankless Stack
+            </h1>
+          </div>
 
-        <div>
-          <p>BanklessDAO dev Guild</p>
+          <div className="text-white text-center">
+            <p>BanklessDAO dev Guild</p>
+          </div>
         </div>
-        <div>
+        <div className="flex justify-center flex-wrap">
           <CardList />
         </div>
       </main>
