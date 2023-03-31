@@ -1,9 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import CardList from '../components/CardList';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,18 +11,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <h1>Bankless Stack</h1>
-         
+      <main>
+        <div>
+          <h1 className='bg-red-700'>Bankless Stack</h1>
         </div>
 
-        <div className={styles.center}>
+        <div>
           <p>BanklessDAO dev Guild</p>
         </div>
-
-        
+        <div>
+          <CardList />
+        </div>
       </main>
     </>
-  )
+  );
 }
