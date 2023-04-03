@@ -1,9 +1,12 @@
+import Image from 'next/image';
 import React from 'react';
 
 function Card({ name, github, pfp, twitter, mail, title, stack }: any) {
   return (
     <div className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 border-2 border-red-700">
-      <img
+      <Image
+        width={128}
+        height={128}
         src={pfp}
         alt="github profile image"
         className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square border-2 border-red-700"

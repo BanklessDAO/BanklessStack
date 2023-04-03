@@ -6,7 +6,7 @@ function CardList() {
   return (
     <div className='flex'>
       {data.map((member, index) => (
-        <Card name={member.name} github={member.links.github} pfp={member.img} mail={member.email} title={member.title} stack={member.stack}/>
+        <Card key={index} name={member.name} github={member.links.github} pfp={member.img} mail={member.email} title={member.title} stack={member.stack}/>
       ))}
     </div>
   );
