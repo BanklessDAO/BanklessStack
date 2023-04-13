@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Useful Links
 
-- [Figma](https://www.figma.com/)
+- [Figma](https://www.figma.com/file/jrJ32OKqQ1SLLPiNonrlyD/Bankless-Stack?node-id=0%3A1&t=1pi2vrnfJGvCPFzL-1)
 
 ---
 
