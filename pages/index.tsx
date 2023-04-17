@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Head from 'next/head';
 import CardList from '../components/CardList';
 
@@ -26,6 +27,7 @@ export default function Home() {
           <CardList />
         </div>
       </main>
+      <Footer />
     </>
   );
 }
