@@ -1,0 +1,16 @@
+{
+  "name": "Teekay",
+  "img": "https://avatars.githubusercontent.com/u/92225571?s=400&u=f4caded0f8da987072504a4f9518353476ba2bff&v=4",
+  "email": "tokunboad@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/tokunbo-ayomide-2b6a51173/",
+    "github": "https://github.com/lordteekay"
+  },
+  "jobTitle": "Full Stack Developer with expertise in ReactJS, Django, and C Programming",
+  "location": {
+    "city": "Lagos",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}
