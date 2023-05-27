@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-black min-h-screen pt-10">
-        <div className='mb-40'>
+        <div className='mb-20'>
           <div>
             <h1 className="text-6xl font-bold text-center text-red-700">
               Bankless Stack

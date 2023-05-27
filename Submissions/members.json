@@ -63,5 +63,22 @@
       "state": "Lagos",
       "country": "Nigeria"
     }
+  },
+  {
+    "name": "OnABoat",
+    "img": "https://avatars.githubusercontent.com/u/5842236?v=4",
+    "email": "onatboatatsea99@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/HamishMcDougall"
+    },
+    "title": "Developer",
+    "stack": "Web3",
+    "location": {
+      "city": "Melbourne",
+      "state": "Victoria",
+      "country": "Australia"
+    }
   }  
 ]
