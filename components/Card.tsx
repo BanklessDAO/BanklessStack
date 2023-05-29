@@ -3,7 +3,7 @@ import React from 'react';
 
 function Card({ name, github, pfp, twitter, mail, title, stack }: any) {
   return (
-    <div className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 border-2 border-red-700">
+    <div className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100 text-gray-100 border-2 border-red-700">
       <Image
         width={128}
         height={128}
@@ -14,10 +14,10 @@ function Card({ name, github, pfp, twitter, mail, title, stack }: any) {
       <div className="space-y-4 text-center divide-y divide-red-700">
         <div className="my-2 space-y-1">
           <h2 className="text-xl font-semibold sm:text-2xl">{name}</h2>
-          <p className="px-5 text-xs sm:text-base dark:text-gray-400">
+          <p className="px-5 text-xs sm:text-base dark:text-gray-400 text-gray-400">
             {title}
           </p>
-          <p className="px-5 text-xs sm:text-base dark:text-gray-400">
+          <p className="px-5 text-xs sm:text-base dark:text-gray-400 text-gray-400">
             {stack}
           </p>
         </div>
@@ -26,7 +26,7 @@ function Card({ name, github, pfp, twitter, mail, title, stack }: any) {
             rel="noopener noreferrer"
             href={github}
             aria-label="GitHub"
-            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700"
+            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700 text-gray-100 hover:text-red-700"
           >
             <svg
               viewBox="0 0 496 512"
@@ -40,7 +40,7 @@ function Card({ name, github, pfp, twitter, mail, title, stack }: any) {
             rel="noopener noreferrer"
             href="#"
             aria-label="Dribble"
-            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700"
+            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700 text-gray-100 hover:text-red-700"
           >
             <svg
               viewBox="0 0 512 512"
@@ -54,7 +54,7 @@ function Card({ name, github, pfp, twitter, mail, title, stack }: any) {
             rel="noopener noreferrer"
             href={twitter}
             aria-label="Twitter"
-            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700"
+            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700 text-gray-100 hover:text-red-700"
           >
             <svg
               viewBox="0 0 512 512"
@@ -68,7 +68,7 @@ function Card({ name, github, pfp, twitter, mail, title, stack }: any) {
             rel="noopener noreferrer"
             href={mail}
             aria-label="Email"
-            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700"
+            className="p-2 rounded-md dark:text-gray-100 hover:dark:text-red-700 text-gray-100 hover:text-red-700"
           >
             <svg
               viewBox="0 0 512 512"
