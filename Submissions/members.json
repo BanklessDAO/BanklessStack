@@ -113,5 +113,21 @@
       "state": "Lagos",
       "country": "Nigeria"
     }
-  }  
+  },
+  {
+    "name": "0xWednesday",
+    "img": "",
+    "email": "w3dnesday0x@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/sandra-ejike-b601b1190/",
+      "github": "https://github.com/cassandraC10"
+    },
+    "jobTitle": "Backend Software Engineer",
+    "location": {
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria"
+    }
+  }
 ]
