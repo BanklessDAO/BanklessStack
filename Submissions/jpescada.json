@@ -1,0 +1,16 @@
+{
+  "name": "João Pescada",
+  "img": "https://avatars.githubusercontent.com/u/136504?v=4",
+  "email": "joao@pescada.pt",
+  "links": {
+    "website": "https://joaopescada.com",
+    "linkedin": "https://www.linkedin.com/in/jpescada",
+    "github": "https://github.com/jpescada"
+  },
+  "jobTitle": "Technologist",
+  "location": {
+    "city": "London",
+    "state": "Greater London",
+    "country": "England"
+  }
+}
