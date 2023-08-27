@@ -8,7 +8,7 @@
       "linkedin": "https://www.linkedin.com/in/david-atolagbe-271b72222/",
       "github": "https://github.com/LordRanchoatos"
     },
-    "title": "Full-stack developer",
+    "jobTitle": "Full-stack developer",
     "stack": "MERN Stack",
     "location": {
       "city": "Lagos",
@@ -73,7 +73,7 @@
       "linkedin": "",
       "github": "https://github.com/HamishMcDougall"
     },
-    "title": "Developer",
+    "jobTitle": "Developer",
     "stack": "Web3",
     "location": {
       "city": "Melbourne",
@@ -106,7 +106,7 @@
       "linkedin": "",
       "github": "https://github.com/Ng1n3"
     },
-    "title": "Backend developer",
+    "jobTitle": "Backend developer",
     "stack": "MERN Stack",
     "location": {
       "city": "Lagos",
@@ -128,6 +128,55 @@
       "city": "Lagos",
       "state": "Lagos",
       "country": "Nigeria"
+    }
+  },
+  {
+    "name": "BOBO",
+    "img": "",
+    "email": "idowuoluwanifemi45@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/BOBOtoTHEmoon"
+    },
+    "jobTitle": "web developer",
+    "location": {
+      "city": "lagos",
+      "state": "lagos",
+      "country": "nigeria"
+    }
+  },
+  {
+    "name": "João Pescada",
+    "img": "https://avatars.githubusercontent.com/u/136504?v=4",
+    "email": "joao@pescada.pt",
+    "links": {
+      "website": "https://joaopescada.com",
+      "linkedin": "https://www.linkedin.com/in/jpescada",
+      "github": "https://github.com/jpescada"
+    },
+    "jobTitle": "Technologist",
+    "location": {
+      "city": "London",
+      "state": "Greater London",
+      "country": "England"
+    }
+  },
+  {
+    "name": "Cisco",
+    "img": "https://avatars.githubusercontent.com/u/80613780?s=400&u=83865a7d7e438b23c6798a354fa73ecec11035d5&v=4",
+    "email": "francisude62@gmail.com",
+    "links": {
+      "website": "behance.net/francisjrude",
+      "linkedin": "",
+      "github": "https://github.com/Cisco-7"
+    },
+    "jobTitle": "Visual Artist",
+    "stack": "Illustrator",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": ""
     }
   }
 ]
