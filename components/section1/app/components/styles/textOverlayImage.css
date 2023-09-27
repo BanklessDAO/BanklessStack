@@ -1,0 +1,28 @@
+/* TextOverlayImage.css */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Background color for the text overlay */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  
+  /* Optional: Add more styles to customize the text overlay further */
+  
