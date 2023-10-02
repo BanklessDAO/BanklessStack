@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import "./styles/carousel.css"
+//import "./styles/carousel.css"
 import Image from 'next/image';
 import Next from "../assets/next.svg"
 import Prev from "../assets/before.svg"
