@@ -49,56 +49,6 @@ export default function Home() {
 				</div>
 				<Carousel items={stacks} />
 			</div>
-			<section className="mission-grp">
-				<CustomDiv
-					url="..//mission-border.svg"
-					heading="Mission"
-					caption="Help our members grow and build crypto products aligned with BanklessDAO's values"
-				/>
-        		<CustomDiv
-					url="..//vision-border.svg"
-					heading="Vision"
-					caption="To enable BanklessDAO's technical endeavour through developer and technical talent"
-				/>
-			</section>
-			<section className="projects-grp">
-				<p>Projects</p>
-				<Image src={LabsImage} alt="project: bankless academy" />
-				<Image src={CardImage} alt="project: bankless card" />
-				<Image src={LoansImage} alt="project: bankless academy" />
-				<Image src={AcademyImage} alt="project: bankless card" />
-				<Image className="img-btn" src={Button} alt="see all" />
-			</section>
-			<section className="talent-grp">
-				<p>Talent pool</p>
-				<div>
-					<div>
-						<Image
-							src={TalentOne}
-							alt="project: bankless academy"
-						/>{" "}
-					</div>
-					<div>
-						<Image
-							src={TalentTwo}
-							alt="project: bankless academy"
-						/>{" "}
-					</div>
-					<div>
-						<Image
-							src={TalentThree}
-							alt="project: bankless academy"
-						/>{" "}
-					</div>
-					<div>
-						<Image
-							src={TalentFour}
-							alt="project: bankless academy"
-						/>{" "}
-					</div>
-				</div>
-				<Image className="img-btn" src={Button} alt="see all" />
-			</section>
 		</main>
 	);
 }
