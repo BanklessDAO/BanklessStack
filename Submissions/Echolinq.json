@@ -1,0 +1,16 @@
+{
+  "name": "Echolinq",
+  "img": "",
+  "email": "echolinq@protonmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "",
+    "github": "https://github.com/Echolinq"
+  },
+  "jobTitle": "FullStack Software Engineer",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "USA"
+  }
+}
