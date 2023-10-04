@@ -1,0 +1,131 @@
+.carousel {
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 200px;
+  }
+  
+  .slide-container {
+    display: flex;
+    gap: 3em;
+  }
+  
+  .slide {
+    transition: transform 10ms;
+    margin: 0 10px;
+  }
+  
+  /*.slide.active {
+    transform: scale(1.2); /* Make the active slide larger /
+    height: fit-content;
+  }*/
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ /* .trapezium-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trapezium-button::before,
+  .trapezium-button::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  
+  .trapezium-button::before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #3498db;
+    left: 0;
+    top: -20px;
+    z-index: -1;
+  }
+  
+  .trapezium-button::after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #3498db;
+    right: 0;
+    top: -20px;
+    z-index: -1;
+  }
+  
+  .trapezium-button:hover {
+    background-color: #2980b9;
+  }
+
+  .tp-container {
+    display: inline-block;
+    background: lightgrey;
+    width: 330px;
+    height: 140px;
+    clip-path: path('M70 0 320 0 A 10 10 0 0 1 330 10 L 330 130 A 10 10 0 0 1 320 140 L 10 140 A 10 10 0 0 1 0 130 L 0 70 A 5 10 45 0 1 6 60 L 60 6 A 5 10 45 0 1 70 0Z');
+    padding: 0;
+    margin: 0;
+  }
+
+  .tp-content {
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }*/
+
+  .tp-button {
+   
+    
+    
+    
+  }
+
+  .normal {
+    margin: auto;
+    font-size: 0.8em;
+    font-family: 'D3 Euronism';
+    color: rgba(255, 255, 255, 0.494);
+    letter-spacing: 3px;
+    display: grid;
+    place-items: center;
+    padding: 1.6em 1.6em;
+    height: fit-content;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    
+    border-radius: 5px;
+
+  }
+  .active {
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.494);
+    border-radius: 5px 1px 5px 1px;
+    background: rgba(146, 146, 146, 0.455);
+    clip-path: polygon(68% 0%, 0% 0%, 0% 69%, 27% 100%, 100% 100%, 100% 35%);
+    scale: 1.2;
+    transform: translateY(-50px);
+    transition: 1ms;
+  }
+  
+  button.icon {
+    background: transparent;
+    border: none;
+  }
+  
+  @media screen and (max-width: 920px) {
+   
+  }

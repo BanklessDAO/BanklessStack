@@ -1,0 +1,19 @@
+.custom-div {
+    padding: 6em;
+}
+
+
+
+@media screen and (max-width: 920px) {
+    .custom-div {
+        padding: 3em;
+    }
+    .custom-div > p {
+        font-size: 0.7em;
+    }
+    .custom-div > h4 {
+        font-size: 0.9em;
+        margin-top: 0.8em;
+        margin-bottom: -0.6em;
+    }
+}
