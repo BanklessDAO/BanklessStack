@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import ProfileCard from './ProfileCard';
 
 function index() {
   return (
-    <div>Section 4</div>
+    <div>
+      <ProfileCard />
+    </div>
   )
 }
 
