@@ -1,9 +1,9 @@
 import React from 'react';
 import Section1 from '../components/section1/page'
-import Section2 from '../components/section2'
-import Section3 from '../components/section3'
-import Section4 from '../components/section4'
-import Section5 from '../components/section5'
+import Section2 from '../components/section2/Index'
+import Section3 from '../components/section3/Index'
+import Section4 from '../components/section4/Index'
+import Section5 from '../components/section5/Index'
 
 function index() {
   return (
